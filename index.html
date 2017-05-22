@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</head>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<h1>Stock Ticker</h1>
+			<form class="yahoo-finance-form form-inline">
+				<label class="sr-only">Stock Symbol</label>
+				<div class="input-group"">
+					<input type="text" class="form-control" id="symbol" placeholder="Please enter symbols" />
+					<button type="submit" class="btn btn-primary">Get me some good news!</button>
+				</div>
+			</form>
+		</div>
+		<div class="col-sm-12">
+			<table class="table table-striped table-bordered">
+				<thead>
+					<tr>
+						<th>Stock Symbol</th>
+						<th>Company Name</th>
+						<th>Ask Price</th>
+						<th>Bid Price</th>
+						<th>Daily Change</th>
+					</tr>
+
+				</thead>
+				<tbody id="stock-ticker-body">
+					<tr>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+</div>
+
+
+<body>
+
+</body>
+</html>
